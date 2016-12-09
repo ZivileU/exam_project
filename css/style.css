@@ -1,0 +1,99 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+/*=====Intro Section======*/
+.intro-section{
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+    background: url("../img/intro.jpg") ;
+    background-position: center center;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+#introtitle{
+    color: #5d5d5d;
+    padding-top: 20px;
+}
+
+hr {
+    height: 2px;
+    background-color:#5d5d5d;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 20%;
+}
+
+.intro-box {
+    position:absolute;
+    width:100%;
+    height: 35%;
+    margin-top: 150px;
+    left: 0;
+    /* padding: 50%;*/
+    /*padding: 20%;*/
+    background-color:rgba(234, 250, 250, 0.8);
+}
+
+.intro-box p {
+     font-size: 2em;
+}
+
+/*=====Filters Section======*/
+.filters-section{
+  height: auto;
+  text-align: center;
+}
+.filters-section p{
+    padding-top: 1em;
+     font-size: 2em;
+}
+
+/*=====Tours Section======*/
+.tours-section{
+    height: auto;
+    padding-top: 40px;
+    text-align: center;
+    background: #EFF0F1;
+    padding-bottom: 50px;
+}
+
+
+.tours-section h1{
+    color: #5d5d5d;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+/*=====Login form======*/
+
+#demo input:not(.unstyled) {
+  font-size: 14px;
+  height: 36px;
+}
+#loginForm {
+  margin: 5%;
+}
+#loginForm .control-label {
+  color: #666666;
+  font-size: 18px;
+  font-weight: 500;
+}
+#inputEmail3, #inputPassword3 {
+  margin-left: 3%;
+}
+#remember-me {
+  color: #666666;
+}
+
+#loginForm button {
+  color: #666666;
+}
